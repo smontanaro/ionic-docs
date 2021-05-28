@@ -174,7 +174,7 @@ export default  {
 }
 ```
 
-Then, add the FAB to the bottom of the page. Use the camera image as the icon, and call the `takePhoto()` function when this button is clicked (to be implemented soon):
+Then, add the FAB just above the ```</ion-page>``` line near the end of the ```<template>```. Use the camera image as the icon, and call the `takePhoto()` function when this button is clicked (to be implemented soon):
 
 ```html
 <ion-content :fullscreen="true">
